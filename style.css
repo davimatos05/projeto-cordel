@@ -1,0 +1,163 @@
+@font-face {
+    font-family: sriracha;
+    src: url('fonts/Sriracha-Regular.ttf');
+}
+
+@font-face {
+    font-family: Passion One;
+    src: url('fonts/PassionOne-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#topo {
+    background-color: black;
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+
+
+header > h1#titulo {
+    color: white;
+    max-width: 800px;
+    font-size: 95px;
+    font-family: Passion One, cursive, sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+
+    position: absolute;
+
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+header > p#direitos {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+    position: absolute;
+
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+
+    margin: auto;
+}
+
+
+p#direitos > a {
+    color: white;
+    text-decoration: none;
+}
+
+p#direitos > a:hover {
+    text-decoration: underline;
+}
+
+#meio {
+    background-color: white;
+}
+
+div.imagem {
+    max-width: 524px;
+    background-color: rgba(0, 0, 0, 0.233);
+    font-family: sriracha;
+    font-size: 45px;
+    padding: 80px;
+    text-align: left;
+    margin-left: -60px;
+}
+
+div.imagem > p {
+    color: white;
+}
+
+#pri {
+    background-color: white;
+    padding: 80px;
+    align-items: left;
+    margin-left: -60px;
+}
+
+#pri > p {
+    font-family: sriracha;
+    font-size: 45px;
+}
+
+#seg {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+    padding: 80px;
+    text-align: left;
+    margin-left: -60px;
+}
+
+
+#ter {
+    background-color: white;
+    padding: 80px;
+    text-align: left;
+    margin-left: -60px;
+}
+
+#ter > p {
+    font-family: sriracha;
+    font-size: 45px;
+}
+
+#quar {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-color: white;
+    padding: 80px;
+    text-align: left;
+    margin-left: -60px;
+}
+
+
+#quin {
+    background-color: white;
+    padding: 80px;
+    text-align: left;
+    margin-left: -60px;
+}
+
+#quin > p {
+    font-family: sriracha;
+    font-size: 45px;
+}
+
+
+#rodape {
+    background-color: black;
+
+}
+
+#rodape > p {
+    color: white;
+    text-align: center;
+}
+
+#rodape > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#rodape > p > a:hover {
+    text-decoration: underline;
+}
